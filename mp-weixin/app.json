@@ -1,0 +1,100 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/baoxiu/list",
+    "pages/baoxiu/list2",
+    "pages/baoxiu/add-or-update",
+    "pages/baoxiu/detail",
+    "pages/fangke/list",
+    "pages/fangke/list2",
+    "pages/fangke/add-or-update",
+    "pages/fangke/detail",
+    "pages/gonggao/list",
+    "pages/gonggao/list2",
+    "pages/gonggao/add-or-update",
+    "pages/gonggao/detail",
+    "pages/guanlilaoshi/list",
+    "pages/guanlilaoshi/list2",
+    "pages/guanlilaoshi/add-or-update",
+    "pages/guanlilaoshi/detail",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/sushe/list",
+    "pages/sushe/list2",
+    "pages/sushe/add-or-update",
+    "pages/sushe/detail",
+    "pages/susheXuesheng/list",
+    "pages/susheXuesheng/list2",
+    "pages/susheXuesheng/add-or-update",
+    "pages/susheXuesheng/detail",
+    "pages/susheweisheng/list",
+    "pages/susheweisheng/list2",
+    "pages/susheweisheng/add-or-update",
+    "pages/susheweisheng/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/list2",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/xueshengkaoqin/list",
+    "pages/xueshengkaoqin/list2",
+    "pages/xueshengkaoqin/add-or-update",
+    "pages/xueshengkaoqin/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宿舍管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#6ec8e3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gonggao/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/icon2.png",
+        "selectedIconPath": "static/tabs/icon2_act.png",
+        "text": "新闻信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
